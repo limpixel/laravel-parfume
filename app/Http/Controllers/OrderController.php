@@ -34,60 +34,7 @@ class OrderController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    use App\Models\Order;
-use App\Models\OrderItem;
-use App\Models\Product;
-use Illuminate\Http\Request;
-
-class OrderController extends Controller
-{
-    public function store(Request $request)
-    {
-        $request->validate([
-            'username' => 'required|string|max:255',
-            'items'    => 'required|array|min:1',
-            'items.*.product_id' => 'required|exists:products,id',
-            'items.*.quantity'   => 'required|integer|min:1',
-        ]);
-
-        // Generate nomor antrian acak (misal 1000–9999)
-        $queueNumber = random_int(1000, 9999);
-
-        // Buat order dulu
-        $order = Order::create([
-            'username'     => $request->username,
-            'total_amount' => 0, // akan dihitung di bawah
-            'queue_number' => $queueNumber,
-        ]);
-
-        $total = 0;
-
-        // Loop item pesanan
-        foreach ($request->items as $item) {
-            $product = Product::findOrFail($item['product_id']);
-            $subtotal = $product->price * $item['quantity'];
-            $total += $subtotal;
-
-            // Simpan item order
-            OrderItem::create([
-                'order_id'  => $order->id,
-                'product_id'=> $product->id,
-                'quantity'  => $item['quantity'],
-                'price'     => $product->price,
-            ]);
-
-            // Update stok produk
-            $product->decrement('stock', $item['quantity']);
-        }
-
-        // Update total nominal order
-        $order->update(['total_amount' => $total]);
-
-        return redirect()->route('orders.show', $order->id)
-                         ->with('success', 'Order berhasil dibuat! Nomor antrian: '.$queueNumber);
-    }
-}
-
+    
 
     /**
      * Display the specified resource.
