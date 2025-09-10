@@ -162,26 +162,20 @@
 
                 <div class="column xl-6 lg-6 md-12 s-about__content-end">                   
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum, ut consequuntur pariatur fugiat aliquam voluptatem officia blanditiis ipsa laboriosam ad velit voluptate nisi saepe quisquam minima culpa eaque amet.
+                    At Sniffy Perfume, we believe that a fragrance is more than just a scent—it’s a story, an identity, and a lasting impression. Our carefully curated collection brings together world-renowned designer houses, sophisticated niche creations, and timeless Middle Eastern blends. 
                     </p>
 
                     <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero sit neque sequi eius illum at porro aperiam. Iusto reiciendis reprehenderit ipsa molestias sit eaque velit, veritatis quod, cum exercitationem doloribus eos cumque, ipsam voluptate! Nam doloribus quibusdam eos ipsum optio animi ea ex. Atque neque nesciunt numquam fugiat inventore!
+                    Whether you’re searching for an elegant signature fragrance, a bold evening scent, or a subtle everyday aroma, Sniffy Perfume ensures every bottle you choose reflects your personality and style.
                     </p>
 
                     <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero sit neque sequi eius illum at porro aperiam. Iusto reiciendis reprehenderit ipsa molestias sit eaque velit, veritatis quod, cum exercitationem doloribus eos cumque, ipsam voluptate! Nam doloribus quibusdam eos ipsum optio animi ea ex. Atque neque nesciunt numquam fugiat inventore!
+                    With a commitment to authenticity and quality, Sniffy Perfume offers only 100% original products sourced from trusted partners worldwide. We strive to make luxury accessible, delivering exceptional perfumes at fair prices with a seamless shopping experience. 
                     </p>
 
                     <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero sit neque sequi eius illum at porro aperiam. Iusto reiciendis reprehenderit ipsa molestias sit eaque velit, veritatis quod, cum exercitationem doloribus.
-                    </p>
-
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore qui quod consequuntur iure. Assumenda, magnam quis ut libero impedit porro?</p>
-
-                    <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem vero sit neque sequi eius illum at porro aperiam. Iusto reiciendis reprehenderit ipsa molestias sit eaque velit, veritatis quod, cum exercitationem doloribus eos cumque, ipsam voluptate! Nam doloribus quibusdam eos ipsum optio animi ea ex. Atque neque nesciunt numquam fugiat inventore!
-                    </p>
+                    Sniffy Perfume is more than a store—it’s a destination for fragrance lovers who want to explore, express, and elevate themselves through the art of scent.
+                    
 
                 </div> <!--end column -->
                 
