@@ -459,6 +459,22 @@
                                     {{ asset('images/perfume-image/gallery-ratio-only/turathi-electric.png') }} 2x" alt="">
                     </a>
                 </div> <!-- end gallery-items__item -->
+
+                <div class="gallery-items__item grid-cols__column">
+                    <a href="{{ asset('images/perfume-image/gallery-ratio-only/lattafa-asad.png') }}" class="gallery-items__item-thumb glightbox">
+                        <img src="{{ asset('images/perfume-image/gallery-ratio-only/lattafa-asad.png') }}" 
+                            srcset="{{ asset('images/perfume-image/gallery-ratio-only/lattafa-asad.png') }} 1x, 
+                                    {{ asset('images/perfume-image/gallery-ratio-only/lattafa-asad.png') }} 2x" alt="">
+                    </a>
+                </div> <!-- end gallery-items__item -->
+
+                <div class="gallery-items__item grid-cols__column">
+                    <a href="{{ asset('images/perfume-image/gallery-ratio-only/proud-of-you-intense.png') }}" class="gallery-items__item-thumb glightbox">
+                        <img src="{{ asset('images/perfume-image/gallery-ratio-only/proud-of-you-intense.png') }}" 
+                            srcset="{{ asset('images/perfume-image/gallery-ratio-only/proud-of-you-intense.png') }} 1x, 
+                                    {{ asset('images/perfume-image/gallery-ratio-only/proud-of-you-intense.png') }} 2x" alt="">
+                    </a>
+                </div> <!-- end gallery-items__item -->
                 
             </div> <!-- end grid-list-items -->
 
